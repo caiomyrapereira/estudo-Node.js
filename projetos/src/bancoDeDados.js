@@ -16,7 +16,7 @@ function salvarProduto(produto) {
 
 function getProduto(id) {
     if (!!produtos[id])
-        return produtos;
+        return produtos[id];
     return {};
 }
 
